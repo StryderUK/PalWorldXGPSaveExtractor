@@ -12,35 +12,10 @@ namespace XGPSaveExtractor
 {
     class XGPSaveExtractor
     {
-        /*List<(string, string)> supported_xgp_apps = new List<(string, string)>
-        {
-            ("Yakuza 0", "SEGAofAmericaInc.Yakuza0PC_s751p9cej88mt"),
-            ("Yakuza Like a Dragon", "SEGAofAmericaInc.Yazawa_s751p9cej88mt"),
-            ("Octopath Traveller", "39EA002F.FrigateMS_n746a19ndrrjg"),
-            ("Just Cause 4", "39C668CD.JustCause4-BaseGame_r7bfsmp40f67j"),
-            ("Hades", "SupergiantGamesLLC.Hades_q53c1yqmx7pha"),
-            ("Control", "505GAMESS.P.A.ControlPCGP_tefn33qh9azfc"),
-            ("Atomic Heart", "FocusHomeInteractiveSA.579645D26CFD_4hny5m903y3g0"),
-            ("Chorus", "DeepSilver.UnleashedGoF_hmv7qcest37me"),
-            ("Final Fantasy XV", "39EA002F.FINALFANTASYXVforPC_n746a19ndrrjg"),
-            ("Starfield", "BethesdaSoftworks.ProjectGold_3275kfvn8vcwc"),
-            ("A Plague Tale: Requiem", "FocusHomeInteractiveSA.APlagueTaleRequiem-Windows_4hny5m903y3g0"),
-            ("High on Life", "2637SquanchGamesInc.HighonLife_mh7dg3tfmz2cj"),
-            ("Lies of P", "Neowiz.3616725F496B_r4z3116tdh636"),
-            ("Totally Accurate Battle Simulator", "LandfallGames.TotallyAccurateBattleSimulator_r2vq7k2y0v9ct"),
-            ("Celeste", "MattMakesGamesInc.Celeste_79daxvg0dq3v6"),
-            ("Persona 5 Royal", "SEGAofAmericaInc.F0cb6b3aer_s751p9cej88mt"),
-            ("Persona 5 Tactica", "SEGAofAmericaInc.s0cb6b3ael_s751p9cej88mt"),
-            ("Chained Echoes", "DECK13.ChainedEchoesRelease_rn1dn9jh54zft"),
-            ("Wo Long: Fallen Dynasty", "946B6A6E.WoLongFallenDynasty_dkffhzhmh6pmy")
-        };*/
-
         readonly static string PALWORLD_PKG_NAME = "PocketpairInc.Palworld_ad4psfrxyesvt";
 
         static (string?, ContainerInfo[]) ReadUserContainers(string user_wgs_dir)
         {
-            // def read_user_containers(user_wgs_dir: Path) -> Tuple[str, List[Dict[str, Any]]]:
-
             string containers_dir = user_wgs_dir;
             string containers_idx_path = Path.Combine(containers_dir, "containers.index");
 
@@ -93,6 +68,7 @@ namespace XGPSaveExtractor
                     // Creation date, FILETIME
                     DateTime container_creation_date = br.ReadFileTime();
                     //Console.WriteLine($"\tContainer \"{container_name}\" created at {container_creation_date}");
+
                     // Unknown
                     br.BaseStream.Seek(16, SeekOrigin.Current);
 
