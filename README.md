@@ -7,10 +7,10 @@ Based off of https://github.com/Z1ni/XGP-save-extractor/ but re-wrote for Palwor
 This program was rushed to work and not in a good state, but I have released it to help others. I apologise if it doesn't work.
 
 ## Prerequisites
-- Install [.NET Runtime 8.0.1](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.1-windows-x64-installer) or [.NET Desktop Runtime 8.0.1](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.1-windows-x64-installer)
+- Install [.NET Runtime 8.0.1](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.1-windows-x64-installer) or [.NET Desktop Runtime 8.0.1](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.1-windows-x64-installer) if using the famework dependant release
 
 ## Instructions
-1. Download and extract
+1. [Download](https://github.com/StryderUK/PalWorldXGPSaveExtractor/releases) and extract
 2. Run PalWorldXGPSaveExtractor.exe 
 3. Follow promps
 4. Once finished check "extracted" folder for the save archive
