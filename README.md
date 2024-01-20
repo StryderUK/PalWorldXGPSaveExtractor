@@ -21,8 +21,8 @@ This program was rushed to work and not in a good state, but I have released it 
 The savegames folder should look like this:
 <pre>
 SaveGames
- └ <steam_user_id_code> e.g 12345678901234567
-   └ <savefile_guid> e.g.71787C374B88F0E4F81E9DBAD77B81E6
+ └  &lt;steam_user_id_code> e.g 12345678901234567
+   └ &lt;savefile_guid> e.g.71787C374B88F0E4F81E9DBAD77B81E6
      ├ Players
      | └ 00000000000000000000000000000001.sav
      ├ Level.sav
