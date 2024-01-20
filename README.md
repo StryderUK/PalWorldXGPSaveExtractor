@@ -33,4 +33,4 @@ SaveGames
  
 
 ## Thanks
-Thanks to [@snoozbuster](https://github.com/snoozbuster) for figuring out the container format at https://github.com/goatfungus/NMSSaveEditor/issues/306.
+Thanks to [@Z1ni](https://github.com/Z1ni/) for the python script this is based on & [@snoozbuster](https://github.com/snoozbuster) for figuring out the container format at https://github.com/goatfungus/NMSSaveEditor/issues/306.
