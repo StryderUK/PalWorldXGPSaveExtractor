@@ -16,20 +16,20 @@ This program was rushed to work and not in a good state, but I have released it 
 4. Once finished check "extracted" folder for the save archive
 5. Go to %LocalAppData%\Pal\Saved\SaveGames
 6. Extract and overwrite UserOption.sav
-7. Extract save data folder into steam user save folder
+7. Extract all other folders into steam user save folder
 
-The savegames folder should look like this:
-<pre>
+The savegames folder structure should look similar to this:
+```
 SaveGames
- └  &lt;steam_user_id_code> e.g 12345678901234567
-   └ &lt;savefile_guid> e.g.71787C374B88F0E4F81E9DBAD77B81E6
+ └  <steam_user_id_code> e.g 12345678901234567
+   └ <world_savefile_guid> e.g.71787C374B88F0E4F81E9DBAD77B81E6
      ├ Players
      | └ 00000000000000000000000000000001.sav
      ├ Level.sav
      ├ LevelMeta.sav
      ├ LocalData.sav
      └ WorldOption.sav
-</pre>
+```
  
 
 ## Thanks
