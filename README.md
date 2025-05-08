@@ -1,5 +1,11 @@
 # Palworld XGP Save Extractor
 
+## Archived
+
+Archived as not working for latest version of the game. Project is for reference only
+
+## About
+
 C# console app to package a PalWorld save from Xbox Game Pass to another platform (e.g. steam)
 
 Based off of https://github.com/Z1ni/XGP-save-extractor/ but re-wrote for Palworld only as I didn't have python installed on my gaming PC to modify the script.
